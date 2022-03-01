@@ -1,0 +1,9 @@
+https://ena-docs.readthedocs.io/en/latest/retrieval/file-download.html#using-ftp-client
+
+Command-line FTP clients allow you to interactively explore the FTP server and download data to your local computer. When asked for a username, use ‘anonymous’. When asked for a password, press the enter key to skip this.
+
+ftp ftp.sra.ebi.ac.uk
+Name: anonymous
+Password:
+
+get ERR164407.fastq.gz
